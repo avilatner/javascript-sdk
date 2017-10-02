@@ -1,11 +1,11 @@
-# Apester Javascript SDK
+# Apester Javascript Header Tag
 
 ## Overview
 
-**Apster SDK Script**,
-Apester SDK script is designed to add support for Apester interaction tags in web pages.
+**Apster Header Tag**,
+Apester Header Tag is designed to add support for Apester interaction tags in web pages.
 
-We've made the SDK script as lean as possible,
+We've made the header tag as lean as possible,
 the flow is very simple:
 We test if a media should be displayed, if it doesn't, we don't create anything.
 If it does we create a loader and behind the scenes load your media content.
@@ -30,8 +30,8 @@ Good, Have fun!
 
 ####  Manually
 
-Include the JS SDK on your page once before the \</head> tag.
-**The SDK script needs to be loaded on each and every page, if you are generating your site content dynamicaly (using Angular's ng-view for example) contact our support for a tailor made solution support@apester.com and open a issue on github**
+Include the JS header tag on your page once before the \</head> tag.
+**The header tag needs to be loaded on each and every page, if you are generating your site content dynamicaly (using Angular's ng-view for example) contact our support for a tailor made solution support@apester.com and open a issue on github**
 ```html
 <html>
 <head>
